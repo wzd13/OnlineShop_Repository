@@ -1,9 +1,11 @@
 <?php
 
+session_start();
+
 $host = "localhost";
 $user = "root";
 $pass = "1234";
-$dbname = "taohu_db";
+$dbname = "taohu_db"; 
 
 $conn = new mysqli($host,$user,$pass,$dbname);
 
